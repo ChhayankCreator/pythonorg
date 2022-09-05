@@ -3,3 +3,7 @@
 marks = {"chemistry": 29, "physics": 93}
 print(marks['chemistry'])
 print(marks['physics'])
+
+#Changing Data Value
+marks['physics'] = 28
+print(marks['physics'])
