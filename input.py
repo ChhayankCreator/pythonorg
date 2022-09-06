@@ -53,8 +53,12 @@ print("Python is " + x)'''
 # The global Keyword
 '''   To create a global variable inside a function, you can use the global keyword.
   '''
-def quality():
+'''def quality():
     global x
     x = "fantastic"  
 quality()
-print('python is' +x)
+print('python is' +x)'''
+# Insert the correct syntax to add a placeholder for the age parameter.
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
