@@ -9,11 +9,15 @@ x, y, z = "Orange", "Banana", "Cherry"'''
 
 Example
 x = y = z = "Orange"
+
 '''
+'''from re import X
+
+
 a = input('Enter Your Name: ')
 a = str(a) 
 
-print (type(a))
+print (type(a))'''
 
 # Global Variables
 '''Variables that are created outside of a function (as in all of the examples above) are known as global variables.
@@ -45,3 +49,12 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)'''
+
+# The global Keyword
+'''   To create a global variable inside a function, you can use the global keyword.
+  '''
+def quality():
+    global x
+    x = "fantastic"  
+quality()
+print('python is' +x)

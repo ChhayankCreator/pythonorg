@@ -15,6 +15,11 @@ def function_name (parameters):
     // do something
 '''
 def addition(num_one,num_two):
+    num_one=input("Enter ist num")
+    
+    num_two=input("Enter Second Number")
+    num_one=int(num_one)
+    num_two=int(num_two)
     print(num_one+num_two)
 
 addition(2,6)    
