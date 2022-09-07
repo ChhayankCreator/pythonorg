@@ -46,3 +46,11 @@ marks.insert(2,'straberry')
 marks = ['12', '24', '37']
 marks.append('286')
 print(marks)
+
+# Extend List
+# To append elements from another list to the current list, use the extend() method.
+
+fruit = ['apple', 'banana', 'guava', 'kiwi']
+mixfruits = ['pineapple', ' pomegranatate', 'papaya']
+mixfruits.extend(fruit)
+print(mixfruits)
