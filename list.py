@@ -36,3 +36,8 @@ while i < len(marks):
     i = i+1  
 marks.clear() # Will clear the all list
 print(marks)
+
+
+#To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+marks = ['apple', 'banana', 'cherry']
+marks.insert(2,'straberry')
