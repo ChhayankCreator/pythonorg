@@ -15,3 +15,10 @@ print(a.strip()) # returns "Hello, World!"
 
 a = "Hello, World!"
 print(a.split(",")) # returns ['Hello', ' World!']
+
+# HOW TO COMBINE STRING AND NUMBERS
+'''Using Format() Function '''
+
+age = 32
+txt = "My NAME IS AMARENDRA SAHA AND MY AGE IS {}" 
+print (txt.format(age))
