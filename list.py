@@ -41,3 +41,8 @@ print(marks)
 #To insert a new list item, without replacing any of the existing values, we can use the insert() method.
 marks = ['apple', 'banana', 'cherry']
 marks.insert(2,'straberry')
+
+# To add an item to the end of the list, use the append() method:
+marks = ['12', '24', '37']
+marks.append('286')
+print(marks)
