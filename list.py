@@ -14,6 +14,9 @@ marks = [21, 24, 80, 49, 40, 39]
 for score in marks:
     print(score)
 '''  
+import this
+
+
 marks = [20, 46, 63, 353, 2425, 5336, 24242]
 marks.append(69) # add the element at the last of the list
 print(marks)
@@ -54,3 +57,10 @@ fruit = ['apple', 'banana', 'guava', 'kiwi']
 mixfruits = ['pineapple', ' pomegranatate', 'papaya']
 mixfruits.extend(fruit)
 print(mixfruits)
+
+# extent() method does also iterate object (tuple, sets, dictionaries)
+
+'''adding tuple to a list:'''
+thislist = ['apple', 'banana', 'cherry']
+thistuple = ('kiwi', 'orange')
+print(thislist)
